@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    caption {
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      resize: vertical;
+    }
+  </style>
+</head>
+
+<body>
+  <table border="1">
+    <caption> 1117Lab </caption>
+    <th colspan="3" style="text-align:center;">
+        <Strong> About -- 112307156 </Strong><br>
+      </th>
+    <tr>
+      <td rowspan="3">
+        <img src="IMG_7429.jpg" alt="Personal Photo" width ="100" height="150"> 
+        <br>
+        <span>Personal Photo</span>
+      </td>
+      <td colspan="2">
+      	<label>Name: 
+      		<input name="name" type="text" size="25" maxlength="30 "name="Wong Man Wing">
+      	</label>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female" Checked> Female
+        <input type="radio" name="gender" value="Other"> Other
+      </td>
+    </tr>
+    <tr>
+      <td>County:
+        <select style="width:50%">
+          <option Value="Taipei" Selected>Taipei</option>
+          <option Value="Tainan">Tainan</option>
+          <option Value="Taichung">Taichung</option>
+          <option Value="Taoyuan">Taoyuan</option>
+      <td>
+      	<html xmlns = "http://www.w3.org/1999/xhtml" > 
+		<head> 
+    		<title>Birthday</title> 
+		</head> 
+		<body> 
+    		<form> 
+    			<input type = "date" name = "OrderDate" value = "2002-03-18" /> 
+    			<input id = "Submit1" type = "submit" value = "submit" /> 
+    		</form> 
+		</body> 
+    </tr>
+    <tr>
+      <td>E-mail: </td> 
+      <td colspan="2">
+        <input type="E-mail" E-mail="112307156@nccu.edu.tw" style="width: 90%;">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">Hobby:</td>
+      <td> 
+        <input type="checkbox" name="hobby" value="Swimming"> Swimming
+        <input type="checkbox" name="hobby" value="Volleyball"> Volleyball
+        <input type="checkbox" name="hobby" value="Movie"Checked> Movie
+        <input type="checkbox" name="hobby" value="Game"Checked> Game
+        <input type="checkbox" name="hobby" value="Sleep"Checked> Sleep
+      </td>
+   
+    </tr>
+    <tr>
+      <td colspan="2">Skill:</td>
+      <td>
+        <input type="checkbox" name="skill" value="Java"> Java
+        <input type="checkbox" name="skill" value="HTML"> HTML
+        <input type="checkbox" name="skill" value="Python" Checked> Python
+        <input type="checkbox" name="skill" value="Microsoft Office"Checked> Microsoft Office
+        <input type="checkbox" name="skill" value="Premiere"> Premiere
+      </td>
+   
+    </tr>
+    <tr>
+      <td>Say something:</td>
+      <td colspan="2">
+        <textarea placeholder="Say something here.">
+I hope to get a passing grade, and then I can complete the credit transfer process successfully.
+        </textarea>
+      </td>
+    </tr>
+  </table>
+  <tr>
+      <! -- input typpes "Submit" and "Reset" insert -->
+      <! -- Buttons for submitting and clearing the -->
+      <! -- form's contents, respectively -->
+      <input type="Submit" value="Submit">
+      <input type="Reset" value="Reset">
+    </tr>  
+</body>
+</html>
